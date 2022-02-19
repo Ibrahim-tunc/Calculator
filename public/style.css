@@ -1,0 +1,132 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200;1,400&display=swap');
+
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+body{
+    background-color: 233, 216, 166;
+}
+.device{
+    
+    user-select: none;
+    background-color: rgb(255, 255, 255);
+    border: .3px transparent rgb(0, 18, 25);
+    border-radius: .3rem;
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    margin:auto;
+    top: 10vw;
+}
+.device tr th {
+    padding: .7vw 0;
+    background-color: rgb(0, 18, 25);
+    color: white;
+    font-weight: 400;
+}
+.device tr td {
+    width: 3vw;
+    text-align: center;
+    border: none;
+    padding: 1vw 0;
+    background-color: rgb(148, 210, 189);
+    font-size: 1.1rem;
+    font-weight: 200;
+
+
+}
+
+.num {
+    font-size: 1.2rem !important;
+    font-weight: 400 !important ;
+}
+
+
+.signs{
+    border: none !important;
+    border-radius: .8rem;
+    width: 3vw;
+    background-color: rgb(0, 95, 115) !important;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: rgb(225, 225, 231) !important;
+}
+
+input {
+    width: 100%;
+    height: 7vw;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 1.3rem;
+    background-color: rgb(0, 63, 88) ;
+    border: none;
+    color: rgb(245, 244, 250);
+}
+
+table tr:first-child th {
+    background-color:rgb(225, 225, 231);
+    padding: 0 0;
+}
+
+#tr_input{
+    padding: 0;
+}
+
+#equal{
+    background-color: rgb(187, 62, 3) !important;
+}
+
+.active{
+    font-weight: 200 !important;
+    font-style: italic;
+}
+
+
+table tr * {
+    border-radius: 1rem;
+}
+
+.nums:hover {
+    background-color: rgb(244, 250, 248);
+    color: rgb(0, 18, 25);
+}
+
+.signs:hover {
+    background-color:rgb(244, 250, 248) !important;
+    color: rgb(0, 18, 25) !important;
+}
+
+#equal {
+    color: rgb(0, 18, 25) !important;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+ 
+    .device {
+        width: 100%;
+        height: 90vh;
+        background-color: white;
+        top: 0;
+    }
+
+    input {
+        height: 25vh;
+        padding: 0;
+        margin: 0;
+        border: transparent solid;
+    }
+
+    .device tr td {
+        width: 20vw;
+    }
+    .device tr th {
+        width: 20vw;
+    }
+
+  }
