@@ -44,9 +44,7 @@ import Calc from './calculator.js'
                     else {
                         mynum = Math.tan(num)
                         myphrase = 'tan' + num
-                    }
-                     
-
+                    }               
                 }
                 break
                 case 's' : {
